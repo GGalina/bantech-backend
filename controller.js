@@ -18,7 +18,7 @@ const sendEmail = async (req, res, next) => {
         await sgMail.send(contact);
 
         res.status(200).json({
-            message: 'Email sent',
+            message: 'Email sent'
         });
     } catch (error) {
         next(error);
