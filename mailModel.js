@@ -10,5 +10,5 @@ const emailSchema = Joi.object({
 });
 
 module.exports = {
-  emailSchema,
+  emailSchema
 };
