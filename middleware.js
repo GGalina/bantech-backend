@@ -12,5 +12,5 @@ function validateEmailSchema(req, res, next) {
 };
 
 module.exports = {
-  validateEmailSchema,
+  validateEmailSchema
 };
